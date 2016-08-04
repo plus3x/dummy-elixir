@@ -17,7 +17,7 @@ defmodule Dummy.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    get "/show", PageController, :show
+    get "/ping", PageController, :ping
   end
 
   # Other scopes may use custom stacks.

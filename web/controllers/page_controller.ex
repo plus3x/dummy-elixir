@@ -5,7 +5,7 @@ defmodule Dummy.PageController do
     render conn, "index.html"
   end
 
-  def show(conn, _params) do
-    render conn, "show.html"
+  def ping(conn, _params) do
+    text conn, "pong"
   end
 end
