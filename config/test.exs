@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :dummy, Dummy.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "vladislavpetrov",
+  # password: "postgres",
   database: "dummy_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
